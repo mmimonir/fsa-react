@@ -1,4 +1,4 @@
-import ListItem from "./components/list_item";
+import ListItem from "./components/List_item";
 
 const App = () => {
   return (
