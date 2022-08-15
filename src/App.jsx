@@ -1,8 +1,14 @@
+import ListItem from "./components/list_item";
+
 const App = () => {
   return (
     <div>
       <h1>Hello World</h1>
-      <p>This is vite test project.</p>
+      <ul>
+        <ListItem name="List Item One" />
+        <ListItem name="List Item Two" />
+        <ListItem name="List Item Three" />
+      </ul>
     </div>
   );
 };
